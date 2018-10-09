@@ -1,0 +1,19 @@
+{
+  "name": "wrtcchatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^11.3.2",
+    "watchify": "^3.11.0"
+  },
+  "dependencies": {
+    "simple-peer": "^9.1.2"
+  }
+}
